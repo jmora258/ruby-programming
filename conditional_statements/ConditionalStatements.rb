@@ -25,3 +25,20 @@ else
 end 
 
 puts y 
+
+#--------------------------------------
+
+question = "Whats your age? "
+
+print "Whats your age: "
+age = gets.chomp.to_i
+
+if age < 30 then 
+	puts "Your age is #{age}"
+else 
+	puts "You're in your thirties."
+end 
+
+
+
+
